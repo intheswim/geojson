@@ -59,6 +59,8 @@ Syntax:
 
 `./geojson mincirle input.csv 12`
 
+![Sample output](/mincircle.png "Minimum circle covering NJ Transit rail stops")
+
 *********************************************************************************
 
 #### Known issues:
