@@ -1,0 +1,13 @@
+#longitude,latitude
+#moscow
+37.6173,55.7558
+#kiev
+30.5234,50.4501
+#minsk
+27.5590,53.9006
+#spb russia
+30.3351,59.9343
+#warsaw
+21.0122,52.2297
+#stockholm
+18.0686,59.3293
