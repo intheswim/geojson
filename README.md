@@ -52,7 +52,8 @@ Syntax:
 
 _Note: only the first three coordinates in .csv file will be used in this case._
 
-3. Find "min circle" (minimum bounding circle) based on a collection of input points.
+3. Find "min circle" (minimum bounding circle) based on a collection of input points. This 
+function uses non-recursive randomized Welzl algorithm, applying it to spherical/geodesic case. 
 
 See  `GeoUtils::mincircle`
 
