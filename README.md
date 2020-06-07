@@ -16,7 +16,10 @@ file to describe the transit coverage area for a transit application (RailBandit
 
 `Mincircle` and `Equidistant` parts are based on materials from Wikipedia and other open sources.
 
-One visualization tool for vieweing results is here:
+I am no longer developing RailBandit, this utility has been not used for years, so I am 
+open-sourcing it, perhaps someone finds it useful.  
+
+One visualization tool for checking results is here:
 
 [Geojson.io](https://geojson.io)
 
