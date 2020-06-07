@@ -1,7 +1,7 @@
 /* geojson, Copyright (c) 2013-2020 Yuriy Yakimenko  */
 
 
-#### This is a utility which outputs .jeoson files.
+#### This is a utility which outputs .geojson files.
 ==================================================
 
 #### Background:
