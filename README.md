@@ -37,6 +37,8 @@ Syntax:
 Here 50 is distance in kilometers, 12 is number of points around each input coordinate. This number must be greater than 2, and the 
 greater this number is, the more "round" looking will be the boundary.
 
+![Sample output](/area.png "NJ Transit rail coverage area")
+
 2. Second function is calculating equidistant point based on three geographic coordinates.
 
 See `GeoUtils::getEquidistantPoint`
