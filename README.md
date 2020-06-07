@@ -1,11 +1,11 @@
 /* geojson, Copyright (c) 2013-2020 Yuriy Yakimenko  */
 
 
-This is a utility which outputs .jeoson files.
+*** This is a utility which outputs .jeoson files. ***
 ===================================================================
 
-Background:
-===========
+*** Background: ***
+====================
 
 Part of the code (MapObject, LatLong, MMath) were originally developed in 2008-2010 in Java
 when I was working on components of RailBandit. They were also ported into C++ for the backend,
@@ -18,7 +18,7 @@ file to describe the transit coverage area for a transit application (RailBandit
 
 One visualization tool for vieweing results is here:
 
-[Geojson.io](`https://geojson.io`)
+[Geojson.io](https://geojson.io)
 
 (click Open > File, select `output.geojson`)
 
@@ -59,16 +59,16 @@ Syntax:
 
 //////////////////////////////////////////////////////////////////////////////////////////
 
-Known issues:
-=============
+*** Known issues:
+=================
 
 I have not included a check in `eqdist` function to make sure all three locations are
 different. Obviously the program will fail when input is bad (the same is true with other two functions).
 
 I also have not included any checks for distance being too large, etc. 
 
-Ideas:
-======
+*** Ideas:
+==========
 
 Add [Appolonius problem](https://en.wikipedia.org/wiki/Problem_of_Apollonius) solution 
 (spherical case) as #4 function into this utility.
