@@ -7,7 +7,7 @@
 #### Background:
 ===============
 
-Part of the code (MapObject, LatLong, MMath) were originally developed in 2008-2010 in Java
+Parts of the code (MapObject, LatLong) were originally developed in 2008-2010 in Java
 when I was working on components of RailBandit. They were also ported into C++ for the backend,
 and largely have not been modified since.
 
