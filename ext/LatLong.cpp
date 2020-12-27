@@ -64,21 +64,7 @@ TLatLong::TLatLong (double x, double y, double z)
 	}
 	else
 	{
-		x = x / temp;
-		y = y / temp;
-
-		longitude = Math::toDegrees (asin (x));
-		if (y < 0)
-		{
-			if (longitude > 0)
-			{
-				longitude = 180 - longitude;
-			}
-			else
-			{
-				longitude = -(180 + longitude);
-			}
-		}
+		longitude = Math::toDegrees (atan2 (x, y));
 	}
 }
 
