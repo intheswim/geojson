@@ -14,6 +14,8 @@ description: |
 grade: stable # must be 'stable' to release into candidate/stable channels  (initially devel)
 confinement: strict # use 'strict' once you have the right plugs and slots (also can be devmode)
 
+icon: snap/gui/Globe480.png
+
 donation: https://www.paypal.com/donate/?hosted_button_id=8EF7Z8LBJDT2S
 
 parts:
