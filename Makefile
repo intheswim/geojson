@@ -1,4 +1,4 @@
-CC=clang++
+CC=g++
 CFLAGS=-std=c++11 -Wall -Werror -pedantic
 
 geojson : main.o latlong.o mapobject.o geoutils.o
@@ -16,6 +16,13 @@ mapobject.o : ext/MapObject.cpp ext/MapObject.h ext/MMath.h
 latlong.o : ext/LatLong.cpp ext/LatLong.h ext/MapObject.h ext/MMath.h
 				$(CC) -c $(CFLAGS) ext/LatLong.cpp -o latlong.o
 
+install: geojson
+	mkdir -p $(DESTDIR)$(PREFIX)/bin
+	cp $< $(DESTDIR)$(PREFIX)/bin/geojson
+
 .PHONY: clean
 clean :
 				-rm main.o latlong.o mapobject.o geoutils.o
+
+uninstall:
+	rm -f $(DESTDIR)$(PREFIX)/bin/geojson
