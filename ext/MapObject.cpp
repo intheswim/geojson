@@ -274,13 +274,10 @@ void MapObject::invert(void)
 void MapObject::getNPointsAround (const TLatLong & pt, double radiusMiles, const int vertCount,
                                   std::vector<TLatLongSP> & output)
 {
-	TLatLong ll (0,0);
-	MapObject mo (ll);
-
-	double alpha = asin (radiusMiles / MapObject::EARTH_RADIUS);
+	double alpha = radiusMiles / MapObject::EARTH_RADIUS;
 	double y = cos (alpha);
 
-	double coef = sqrt(1- y * y);
+	double coef = sqrt(1 - y * y);
 
 	for (int i=0; i < vertCount; i++)
 	{
