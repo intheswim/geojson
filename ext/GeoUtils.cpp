@@ -390,7 +390,7 @@ static bool containsPoint (const Circle & c, const MapObject &pt)
 
 static int unmarkedIndex (vector <MapObjectEx> & R)
 {
-    for (int i=0; i < R.size(); i++)
+    for (size_t i=0; i < R.size(); i++)
     {
         if (R[i].mark == 0) return i;
     }
@@ -420,7 +420,7 @@ MapObject GeoUtils::smallestCircle (vector <MapObjectEx> & inputP, double & outR
         inputP.erase (inputP.begin());
     }
 
-    int index = 0;
+    size_t index = 0;
     Circle r = trivial(inputR);
 
 	while (index < inputP.size())
