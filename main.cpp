@@ -158,7 +158,7 @@ int function_Area_And_MinCircle (char * argv[], int which)
         	auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start);        
 
 
-			printf ("area completed in %lld ms\n", duration.count());
+			printf ("area completed in %ld ms\n", duration.count());
 		}
 		else 
 		{
@@ -174,7 +174,7 @@ int function_Area_And_MinCircle (char * argv[], int which)
 			auto end = std::chrono::high_resolution_clock::now();
         	auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start);        
 
-			printf ("mincircle completed in %lld ms\n", duration.count());
+			printf ("mincircle completed in %ld ms\n", duration.count());
 		}
 	}
 
@@ -229,7 +229,7 @@ int function_Equidistant (char * argv[])
 	auto end = std::chrono::high_resolution_clock::now();
         	auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start);        
 
-	printf ("eqdist completed in %lld ms\n", duration.count());
+	printf ("eqdist completed in %ld ms\n", duration.count());
 
     printf ("EQD %lf %lf\n", pt.Latitude(), pt.Longitude());
 
